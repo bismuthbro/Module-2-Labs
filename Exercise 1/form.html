@@ -1,0 +1,49 @@
+<html>
+<head></head>
+<body>
+    <nav>
+        <a href="./index.html"> main page </a>
+    </nav>
+<form method="POST" action="http://localhost:3000/profile">
+    <div>
+        <label for="firstNameLabel">First Name:</label>
+        <input type="text" id="firstName" name="firstName">
+    </div>
+    <div>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName">
+    </div>
+    <div>
+        <input type="radio" id="option1" name="options" value="option1">
+        <label for="option1">I am rich</label>
+        
+        <input type="radio" id="option2" name="options" value="option2">
+        <label for="option2">I am modest</label>
+        
+        <input type="radio" id="option3" name="options" value="option3">
+        <label for="option3">I am poor</label>
+    </div>
+    <div>
+        Do you agree to give all of your money to me?
+        <input type="checkbox" id="checkbox1" name="checkbox1" value="Yes">
+        <label for="checkbox1">Yes</label>
+
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="No">
+        <label for="checkbox2">No</label>
+    </div>
+</br>
+    <div>
+        <label for="selectField">How much money CAN you give me?</label>
+        <select id="selectField" name="options">
+            <option value="$100">$100</option>
+            <option value="$200">$200</option>
+            <option value="$300">$300</option>
+        </select>
+    </div>
+</br>
+    <div>
+        <button type="submit">RELINQUISH FUNDS</button>
+    </div>
+</form>
+</body>
+</html>
